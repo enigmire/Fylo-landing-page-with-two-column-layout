@@ -312,13 +312,19 @@ footer, .footer {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 0;
+    width: 100%;
+  }
+  input {
+    width: 65%;
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 0 0;
   }
   .showcase-btn {
     padding: 15px 10px;
-    font-size: 13px;
-    margin-top: 5px;
-    width: 30%;
-    
+    font-size: 16px;
+    /* margin-top: 5px; */
+    width: 30%;    
   }
 
   .productive {background-image: url(/images/bg-curve-desktop.svg) no-repeat top;
